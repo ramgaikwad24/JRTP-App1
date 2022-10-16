@@ -14,6 +14,7 @@ public class App
 {
     public static void main( String[] args )
     {
+    	int a=120;
         System.out.println( "Hello World!" );
         SessionFactory factory=new Configuration().configure().buildSessionFactory();
         Student st=new Student();
